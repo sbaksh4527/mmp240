@@ -1,0 +1,36 @@
+body{
+  background: yellow;
+}
+header{
+	text-align: center;
+}
+.center{
+  width: 100%;
+  height: 800px;
+  background-size: 100% 100%;
+}
+
+.first{
+float:left;
+text-align: center;
+}
+
+.second{
+float:right;
+text-align: right;
+}
+
+p{
+	font-family: "Times New Roman";
+	font-size: 1.2em;
+  max-width: 30em;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  flex: 1 100%;
+}
