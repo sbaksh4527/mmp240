@@ -1,0 +1,33 @@
+body{
+    background-color:black;
+}
+
+.holder{
+	max-width:1140px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.slider{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mine{
+    width:100%;
+}
+
+.back{
+    position: absolute;
+    left:8px;
+    background-color: white;
+}
+
+.next{
+    position: absolute;
+    right:8px;
+    background-color: white;
+
+}
